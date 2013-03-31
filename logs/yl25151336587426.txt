@@ -1,0 +1,157 @@
+2012-05-09 14:17:06.003002
+Logged in with Twitter handle @italktweets
+
+
+State is now: Welcome
+
+
+System: Welcome to Voice Twitter!
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput1.wav
+
+
+
+State is now: Main menu
+
+
+System: What would you like to do?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput2.wav
+
+System: You can say read tweets, write a tweet, or exit. At any time, say MAIN MENU to go to main menu.
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput3.wav
+
+User: 000000000
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput2.wav
+System: Sorry I didn't quite get that, try again
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput4.wav
+
+System: What would you like to do?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput5.wav
+
+User: I WANT TO LISTEN TO TWEETS
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput3.wav
+Semantics [,,Grammar=4,,Action=I WANT TO LISTEN TO TWEETS,,]
+
+
+
+State is now: Reading tweets
+
+
+System: What kind of tweets do you want to listen to?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput6.wav
+
+System: You can say read tweets in my timeline or in a category such as entertainment or trends. You can also specify a preset group of users as a source, or provide a time range. For example: read tweets in my timeline in colleagues in the last ten hours. For detailed instruction, please read the attached documentation.
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput7.wav
+
+User: READ TWEETS IN MY TIMELINE
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput4.wav
+Semantics [,,Grammar=1,,Type=READ TWEETS,,Domain= IN MY TIMELINE,,Time=Unknown,,Group=Unknown,,]
+
+
+
+State is now: Interact with individual tweets
+
+
+System: There are more than ten new tweets since you last checked, the most recent is from a few seconds ago
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput8.wav
+
+System: From SethMacFarlane, Whenever I hear Katy Perrys Firework, I like to picture an elderly Jewish man covering his ears and saying, Aaa, please dont yell!
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput9.wav
+
+System: What would you like to do to this tweet?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput10.wav
+
+User: NEXT TWEET
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput5.wav
+Semantics [,,Grammar=2,,Type=NEXT TWEET,,Action1=Unknown,,Action2=Unknown,,]
+
+System: From justinbieber, remember where u came from. .. hashtag giveback
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput11.wav
+
+System: What would you like to do to this tweet?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput12.wav
+
+User: RETWEET THIS TWEET
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput6.wav
+Semantics [,,Grammar=2,,Type=ACTION,,Action1=RETWEET,,Action2=Unknown,,]
+
+System: Retweeted successfully
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput13.wav
+
+System: From justinbieber, the song i wrote for my mom .. hashtag TurnToYou hits ITUNES this Friday for Mothers Day Weekend. Money raised will go to helping other single moms
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput14.wav
+
+System: What would you like to do to this tweet?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput15.wav
+
+User: MAIN MENU
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput7.wav
+Semantics [,,Grammar=2,,Type=MAIN MENU,,Action1=Unknown,,Action2=Unknown,,]
+
+
+
+State is now: Main menu
+
+
+
+
+State is now: Main menu
+
+
+System: What would you like to do?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput16.wav
+
+User: I WANT TO WRITE A TWEET
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput8.wav
+Semantics [,,Grammar=4,,Action=I WANT TO WRITE A TWEET,,]
+
+
+
+State is now: Writing tweets
+
+
+System: What would you like to tweet?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput17.wav
+
+System: You can say tweet followed by a topic, which can be about a random fact or the weather. Or you can tweet about your emotions. You can also specify a future tweet. For example, tweet that I am sad in one hour. Read the documentation for detailed instructions.
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput18.wav
+
+User: TWEET THAT I AM EXCITED
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput9.wav
+Semantics [,,Grammar=3,,Type=TWEET,,Topic=THAT I AM EXCITED,,Time=Unknown,,]
+
+System: Tweeted successfully
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput19.wav
+
+
+
+State is now: Main menu
+
+
+System: What would you like to do?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput20.wav
+
+User: 000000000
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput10.wav
+System: Sorry I didn't quite get that, try again
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput21.wav
+
+System: What would you like to do?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput22.wav
+
+User: HELP ME PLEASE
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput11.wav
+Semantics [,,Grammar=4,,Help= true,,]
+
+System: You can say read tweets, write a tweet, or exit. At any time, say MAIN MENU to go to main menu.
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput23.wav
+
+System: What would you like to do?
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput24.wav
+
+User: EXIT
+User input file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/UserInput12.wav
+Semantics [,,Grammar=4,,Action=EXIT,,]
+
+System: Thanks, goodbye!
+System output file at /proj/speech/users/cs4706/yl2515/dialog/logs/yl25151336587426/SysOutput25.wav
+

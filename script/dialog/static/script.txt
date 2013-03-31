@@ -1,0 +1,21 @@
+( question0000 "What would you like to do?" )
+( help0000 "You can say read tweets, write a tweet, or exit. At any 
+time, say main menu to go to main menu" )
+( question0001 "What kind of tweets do you want to listen to?" )
+( help0001 "You can say read tweets in my timeline or in a category such 
+as entertainment or trends. You can also specify a preset group of users 
+as a source, or provide a time range. For example: read tweets in my 
+timeline in colleagues in the last ten hours. For detailed instruction, 
+please read the attached documentation" )
+( question0002 "What would you like to do to this tweet?" )
+( help0002 "Say retweet, favorite, follow, unfollow, or say next tweet 
+or nothing to skip. You can optionally say two commands at once. For 
+example, retweet and follow this user" )
+( question0003 "What would you like to tweet?" )
+( help0003 "You can say tweet followed by a topic, which can be about a 
+random fact or the weather. Or you can tweet about your emotions. You 
+can also specify a future tweet. For example, tweet that I am sad in one 
+hour. Read the documentation for detailed instructions." )
+( prompt0000 "Welcome to Voice Twitter!" )
+( prompt0001 "Sorry I didn't quite get that, try again" )
+( prompt0002 "Thanks, goodbye!" )

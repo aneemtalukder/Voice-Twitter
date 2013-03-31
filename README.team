@@ -1,0 +1,15 @@
+Spoken Language Processing - SDS Team Report
+Voice-based Twitter App
+May 9, 2012
+
+Yufei Liu
+- figured out how to use Twitter API, integrated it into Python
+- implemented Reddit mining for random fact
+- implemented Google weather API
+- worked on the python executable script for the SDS
+
+Aneem Talukder
+- provided the voice of the system by doing all recordings
+- wrote most of the report, drew state diagrams
+- pair-programmed with Yufei
+- debugging

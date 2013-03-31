@@ -1,0 +1,10 @@
+#JSGF V1.0;
+grammar write;
+
+<number> = FIVE | TEN | TWENTY | THIRTY;
+<duration> = (ONE MINUTE) | (ONE HOUR) | (ONE DAY) | (<number> (MINUTES | HOURS | DAYS));
+<time> = NOW | (IN <duration>);
+<topic> = (ABOUT ((A RANDOM FACT) | (THE WEATHER))) | (THAT (I AM (ANGRY | HAPPY | SAD | EXCITED)));
+<mainmenu> = MAIN MENU;
+
+public <tweeting> = ([I WANT TO] TWEET <topic> [<time>]) | <mainmenu>;

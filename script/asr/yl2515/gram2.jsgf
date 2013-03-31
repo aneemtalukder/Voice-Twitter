@@ -1,0 +1,8 @@
+#JSGF V1.0;
+grammar action;
+
+<action> = ((FAVORITE | RETWEET) [(THIS TWEET) | (THIS)]) | ((FOLLOW | UNFOLLOW) THIS USER);
+<action1> = <action>;
+<action2> = <action>;
+<mainmenu> = MAIN MENU;
+public <command> = (NEXT TWEET) | ([I WANT TO] <action1> [AND <action2>]) | <mainmenu>;

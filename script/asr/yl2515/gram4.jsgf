@@ -1,0 +1,6 @@
+#JSGF V1.0;
+grammar main;
+
+<prefix> = (I WANT TO) | (I WOULD LIKE TO) | (CAN I);
+
+public <main> = ([<prefix>] (WRITE A TWEET)) | ((READ | ([<prefix>] LISTEN TO)) TWEETS) | (HELP ME [PLEASE]) | (EXIT | QUIT | LEAVE);

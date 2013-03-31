@@ -1,0 +1,13 @@
+#JSGF V1.0;
+grammar query;
+
+<category> = POLITICS | SPORTS | ENTERTAINMENT | NEWS | TRENDS;
+<domain> = (IN MY TIMELINE) | (IN <category>);
+<number> = FIVE | TEN | TWENTY | THIRTY;
+<duration> = MINUTE | HOUR | DAY | (<number> (MINUTES | HOURS | DAYS));
+<time> = IN THE LAST <duration>;
+<groupname> = FRIENDS | FAMILY | COLLEAGUES | CELEBRITIES | OTHERS;
+<group> = IN <groupname>;
+<mainmenu> = MAIN MENU;
+
+public <query> = (READ TWEETS [<domain>] [<time>] [<group>]) | <mainmenu>;
